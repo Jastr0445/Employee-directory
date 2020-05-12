@@ -28,6 +28,8 @@ class App extends Component {
             id={Employee.id}
             key={Employee.id}
             name={Employee.name}
+            age={Employee.age}
+            email={Employee.email}
             image={Employee.image}
             occupation={Employee.occupation}
             location={Employee.location}
